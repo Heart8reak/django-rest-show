@@ -25,7 +25,8 @@ SECRET_KEY = 't2wkuu1r%6m8u3cor@lhh-p0!g*$ak6@ls=8u_u(=yw8oybpvo'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['pyorl-django-rest-show.herokuapp.com', "localhost"]
+ALLOWED_HOSTS = ['pyorl-django-rest-show.herokuapp.com',
+                 "localhost", '127.0.0.1']
 
 
 # Application definition

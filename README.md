@@ -17,6 +17,14 @@ We built an app that contains shows with name, network, and rating fields. We th
 
 [Demo App](https://pyorl-django-rest-show.herokuapp.com/)
 
+
+## Create Virtual Environment
+make sure you are in the directory
+```bash
+virtualenv -p python3 .
+source bin/activate
+```
+
 ## Install
 
 ```bash
@@ -27,4 +35,21 @@ pip install -r requirements.txt
 
 ```bash
 python manage.py runserver
+```
+
+## Create a branch from the repository
+```bash
+git checkout -b 'Name-of-Branch'
+```
+
+## Commands to make commits to the branch
+```bash
+git status
+git add .
+git commit -m 'updated home page'
+```
+
+## Push to new branch
+```bash
+git push origin 'Name-of-branch'
 ```
